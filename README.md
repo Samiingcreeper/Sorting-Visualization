@@ -30,7 +30,7 @@ the elements of the array is also encapsulated into `Pointer`.
 I bring these encapsulations to the program to automate the rendering of the sorting animations.
 Everytime the sorter (`Sorter`) accesses (get or set) an element in the `SortArray`, it is paused and a new frame is rendered.
 
-Sorters only continue computing for the next frame once all of them have computed the currently frame.
+Sorters only continue computing the next frame once all of them have computed the currently frame.
 
 Please note that currently you still need to manually add a new GUI panel to show the new sorting algorithm you have written.
 
